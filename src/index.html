@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- TURN OFF PHONE NUMBER QUICK DIAL -->
+	<meta name="format-detection" content="telephone=no">
+	<!-- FOR SEO -->
+	<meta name="description" content="Web design, web development. Peel Brown's personal page">
+	<meta name="keywords" content="web design, web development, peelbrown, personal page">
+	<meta name="Author" content="peelbrown">
+	<meta name="Address" content="Kyiv, Ukraine">
+	<!-- PREVENT INDEXATION OF THE PAGE -->
+	<!-- <meta name="robots" content="none"> -->
+	<!-- RESEND USER TO ANOTHER PAGE -->
+	<!-- <meta http-equiv="refresh" content="0; url="> -->
+	<title>PEELBROWN</title>
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles/index.scss">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="wrapper">
+			<div class="header__inner">
+				<a href="#" class="logo"> &#60;peelbrown /&#62; </a>
+			</div>
+			<nav class="nav">
+				<ul class="nav__items">
+					<li class="nav__item">
+						<div class="nav__link"> About me </div>
+					</li>
+					<li class="nav__item">
+						<div class="nav__link"> Resume </div>
+					</li>
+					<li class="nav__item">
+						<div class="nav__link"> Portfolio </div>
+					</li>
+					<li class="nav__item">
+						<div class="nav__link"> Services </div>
+					</li>
+					<li class="nav__item">
+						<div class="nav__link"> Contacts </div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main" id="main">
+		<section class="quote">
+			<div class="wrapper">
+				<div class="quote__inner">
+					<h1 class="quote__text">
+						The less you have the more you have
+					</h1>
+				</div>
+			</div>
+		</section>
+		<section class="about_me">
+			<div class="wrapper">
+				<div class="about_me__inner">
+					<h2 class="section__header about_me__header">
+						About me
+					</h2>
+					<img class="about_me__image my_photo" src="#" alt="my photo">
+					<div class="about_me__text text">
+						<h3 class="text__header">
+							Hi! My name is Phillip.
+						</h3>
+						<p class="text_paragraph">
+							I am a begginer self-taught frontend developer. I just started my journey into this magnificent world of codding, designing and development. I learn fast and I totaly enjoy it. That’s why, I can say I have found my calling. <br /> There is always something new and it never ends.
+						</p>
+						<p class="text_paragraph">
+							If you need a personal web page, a web page for your business or you have a great idea for an application, contact me and we will figure it out. I will be happy to help you with your projects.
+						</p>
+						<p class="text_paragraph">
+							Let’s revolutionize the industry and make the world a better place.
+						</p>
+						<a class="btn" href="#">
+							Check my resume
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="portfolio">
+			<h2 class="section__header portfolio__header">
+				Portfolio
+			</h2>
+			<ul class="portfolio__items">
+				<li class="portfolio__item"></li>
+				<li class="portfolio__item"></li>
+				<li class="portfolio__item"></li>
+				<li class="portfolio__item"></li>
+				<li class="portfolio__item"></li>
+				<li class="portfolio__item"></li>
+			</ul>
+			<a class="btn" href="#">
+				Check other works
+			</a>
+		</section>
+		<section class="contacts">
+			<div class="wrapper">
+				<div class="contacts__inner contact">
+					<div class="contact__info">
+						<div class="contact__header phone-card"></div>
+						<ul class="contact__items">
+							<li class="contact__item location"> 
+								Kyiv, Ukraine 
+							</li>
+							<li class="contact__item mail"> 
+								peelbrown@gmail.com 
+							</li>
+							<li class="contact__item phone"> 
+								+38 (063) 510 57 69 
+							</li>
+							<li class="contact__item telegram"> 
+								@peelbrown 
+							</li>
+						</ul>
+					</div>
+					<div class="contact__form">
+						<div class="contact__header envelope"></div>
+						<form class="form" id="form" action="POST">
+							<div class="form__item">
+								<input class="form__input" id="name" type="text" name="name" placeholder="* Name" required>
+							</div>
+							<div class="form__item">
+								<input class="form__input" id="email" type="email" name="email" placeholder="* Email" required>
+							</div>
+							<div class="form__item">
+								<textarea class="form__textarea" id="message" name="message" placeholder="* Message"></textarea>
+							</div>
+							<button class="btn send" id="send" type="submit">
+								Send
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer" id="footer">
+		<div class="wrapper">
+			<div class="footer__inner">
+				<ul class="social__items">
+					<li class="social__item"> <a href="https://github.com/peelbrown/" 		class="solial__link github"> </a> </li>
+					<li class="social__item"> <a href="https://instargram.com/peelbrown/" 	class="solial__link instagram"> </a> </li>
+					<li class="social__item"> <a href="https://behance.com/peelbrown/" 		class="solial__link behance"> </a> </li>
+					<li class="social__item"> <a href="https://linkedin.com/peelbrown/" 	class="solial__link linkedin"> </a> </li>
+					<li class="social__item"> <a href="https://codepen.com/peelbrown/" 		class="solial__link codepen"> </a> </li>
+				</ul>
+				<div class="copyrights_info">
+					<p class="copyrights_info__text">
+						Designed & developed by peelbrown.xyz. Approximatelly all rights reserved.
+					</p>
+					<p class="copyrights__year" id="year">
+						2020
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./scripts/index.js"></script>
+</body>
+</html>
