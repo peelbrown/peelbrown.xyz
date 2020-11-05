@@ -16,34 +16,36 @@
 	<!-- <meta http-equiv="refresh" content="0; url="> -->
 	<title>PEELBROWN</title>
 	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./styles/index.scss">
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
 	<header class="header" id="header">
 		<div class="wrapper">
 			<div class="header__inner">
 				<a href="#" class="logo"> &#60;peelbrown /&#62; </a>
+				<nav class="nav">
+					<ul class="nav__items">
+						<li class="nav__item">
+							<div class="nav__link"> About me </div>
+						</li>
+						<li class="nav__item">
+							<div class="nav__link"> Resume </div>
+						</li>
+						<li class="nav__item">
+							<div class="nav__link"> Portfolio </div>
+						</li>
+						<li class="nav__item">
+							<div class="nav__link"> Services </div>
+						</li>
+						<li class="nav__item">
+							<div class="nav__link"> Contacts </div>
+						</li>
+					</ul>
+				</nav>
 			</div>
-			<nav class="nav">
-				<ul class="nav__items">
-					<li class="nav__item">
-						<div class="nav__link"> About me </div>
-					</li>
-					<li class="nav__item">
-						<div class="nav__link"> Resume </div>
-					</li>
-					<li class="nav__item">
-						<div class="nav__link"> Portfolio </div>
-					</li>
-					<li class="nav__item">
-						<div class="nav__link"> Services </div>
-					</li>
-					<li class="nav__item">
-						<div class="nav__link"> Contacts </div>
-					</li>
-				</ul>
-			</nav>
 		</div>
 	</header>
 	<main class="main" id="main">
@@ -62,24 +64,75 @@
 					<h2 class="section__header about_me__header">
 						About me
 					</h2>
-					<img class="about_me__image my_photo" src="#" alt="my photo">
+					<img class="about_me__image my_photo" src="./images/my_photo.png" alt="my photo">
 					<div class="about_me__text text">
 						<h3 class="text__header">
 							Hi! My name is Phillip.
 						</h3>
-						<p class="text_paragraph">
+						<p class="text__paragraph">
 							I am a begginer self-taught frontend developer. I just started my journey into this magnificent world of codding, designing and development. I learn fast and I totaly enjoy it. That’s why, I can say I have found my calling. <br /> There is always something new and it never ends.
 						</p>
-						<p class="text_paragraph">
+						<p class="text__paragraph">
 							If you need a personal web page, a web page for your business or you have a great idea for an application, contact me and we will figure it out. I will be happy to help you with your projects.
 						</p>
-						<p class="text_paragraph">
+						<p class="text__paragraph">
 							Let’s revolutionize the industry and make the world a better place.
 						</p>
-						<a class="btn" href="#">
+						<a class="about_me__btn btn" href="#">
 							Check my resume
 						</a>
 					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services">
+			<div class="wrapper">
+				<div class="services__inner">
+					<h2 class="section__header services__header">
+						Services
+					</h2>
+					<ul class="services__items">
+						<li class="services__item services__item_1">
+							<i class="fab fa-figma"></i>
+							<!-- <div class="services__icon design"></div> -->
+							<h3 class="services__name">
+								Design
+							</h3>
+							<p class="services__description">
+								Create unique design according to your requirments
+							</p>
+						</li>
+						<li class="services__item services__item_2">
+							<i class="fas fa-code"></i>
+							<!-- <div class="services__icon codding"></div> -->
+							<h3 class="services__name">
+								Codding
+							</h3>
+							<p class="services__description">
+								Write clean, fast, readable code using the latest technologies
+							</p>
+						</li>
+						<li class="services__item services__item_3">
+							<i class="fas fa-headset"></i>
+							<!-- <div class="services__icon support"></div> -->
+							<h3 class="services__name">
+								Support
+							</h3>
+							<p class="services__description">
+								Hosting, updating and trully taking care of your website
+							</p>
+						</li>
+						<li class="services__item services__item_4">
+							<i class="fas fa-feather"></i>
+							<!-- <div class="services__icon optimizing"></div> -->
+							<h3 class="services__name">
+								Optimization
+							</h3>
+							<p class="services__description">
+								Optimize your current website to make it work faster on all devices
+							</p>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</section>
@@ -88,22 +141,26 @@
 				Portfolio
 			</h2>
 			<ul class="portfolio__items">
-				<li class="portfolio__item"></li>
-				<li class="portfolio__item"></li>
-				<li class="portfolio__item"></li>
-				<li class="portfolio__item"></li>
-				<li class="portfolio__item"></li>
-				<li class="portfolio__item"></li>
+				<li class="portfolio__item portfolio__item_1"></li>
+				<li class="portfolio__item portfolio__item_2"></li>
+				<li class="portfolio__item portfolio__item_3"></li>
+				<li class="portfolio__item portfolio__item_4"></li>
+				<li class="portfolio__item portfolio__item_5"></li>
+				<li class="portfolio__item portfolio__item_6"></li>
 			</ul>
-			<a class="btn" href="#">
+			<a class="portfolio__btn btn" href="#">
 				Check other works
 			</a>
 		</section>
 		<section class="contacts">
 			<div class="wrapper">
+				<h2 class="section__header contacts__header">
+					Contacts
+				</h2>
 				<div class="contacts__inner contact">
 					<div class="contact__info">
-						<div class="contact__header phone-card"></div>
+						<i class="contact__header far fa-address-card"></i>
+						<!-- <div class="contact__header phone-card"></div> -->
 						<ul class="contact__items">
 							<li class="contact__item location"> 
 								Kyiv, Ukraine 
@@ -120,7 +177,8 @@
 						</ul>
 					</div>
 					<div class="contact__form">
-						<div class="contact__header envelope"></div>
+						<i class="contact__header far fa-envelope"></i>
+						<!-- <div class="contact__header envelope"></div> -->
 						<form class="form" id="form" action="POST">
 							<div class="form__item">
 								<input class="form__input" id="name" type="text" name="name" placeholder="* Name" required>
@@ -144,11 +202,31 @@
 		<div class="wrapper">
 			<div class="footer__inner">
 				<ul class="social__items">
-					<li class="social__item"> <a href="https://github.com/peelbrown/" 		class="solial__link github"> </a> </li>
-					<li class="social__item"> <a href="https://instargram.com/peelbrown/" 	class="solial__link instagram"> </a> </li>
-					<li class="social__item"> <a href="https://behance.com/peelbrown/" 		class="solial__link behance"> </a> </li>
-					<li class="social__item"> <a href="https://linkedin.com/peelbrown/" 	class="solial__link linkedin"> </a> </li>
-					<li class="social__item"> <a href="https://codepen.com/peelbrown/" 		class="solial__link codepen"> </a> </li>
+					<li class="social__item">
+						<a href="https://github.com/peelbrown" class="social__link github"> 
+							<i class="fab fa-github"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="https://instargram.com/peelbrown" class="social__link instagram"> 
+							<i class="fab fa-instagram"></i>
+						</a> 
+					</li>
+					<li class="social__item">
+						<a href="https://behance.com/peelbrown" class="social__link behance"> 
+							<i class="fab fa-behance-square"></i>
+						</a>
+					 </li>
+					<li class="social__item">
+						<a href="https://linkedin.com/peelbrown" class="social__link linkedin"> 
+							<i class="fab fa-linkedin"></i>
+						</a> 
+					</li>
+					<li class="social__item">
+						<a href="https://codepen.com/peelbrown" class="social__link codepen"> 
+							<i class="fab fa-codepen"></i>
+						</a> 
+					</li>
 				</ul>
 				<div class="copyrights_info">
 					<p class="copyrights_info__text">

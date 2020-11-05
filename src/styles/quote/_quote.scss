@@ -1,0 +1,17 @@
+.quote {
+	width: 100%;
+	background-color: rgb(235, 235, 235);
+	&__inner {
+		height: 90vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__text {
+		font-family: $head-font;
+		font-size: 48px;
+		letter-spacing: 3px;
+		font-weight: 200;
+		text-transform: uppercase;
+	}
+}
